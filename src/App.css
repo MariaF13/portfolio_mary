@@ -31,9 +31,13 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #121212 !important;
+  /* background-color: #ffdbef !important; */
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
+  background-image: url('./assets/img/banner-purple-pink.png');
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -200,10 +204,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/banner-purple-pink.png');
+  /* background-image: url('./assets/img/banner-purple-pink.png');
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 
 .banner .tagline {
@@ -277,7 +281,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .align-items-center {
-  margin-top: 5rem !important;
+  margin-top: 3rem !important;
+  margin-bottom: 4rem !important;
 }
 
 /************ Skills Css ************/
@@ -286,7 +291,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
 }
 .skill-bx {
-  background: #151515;
+  background: rgba(179, 154, 235, 0.5);
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
@@ -295,13 +300,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill h2 {
 	font-size: 45px;
 	font-weight: 700;
+  color: #000;
 }
 .skill p {
-    color: #B8B8B8;
+    color: #4A4A4A;
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
     margin: 14px 0 75px 0;
+}
+.skill h5 {
+  color: #000;
 }
 .skill-slider {
   width: 80%;
@@ -318,6 +327,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   bottom: 0;
   width: 40%;
   z-index: -4;
+}
+
+.react-multiple-carousel__arrow.react-multiple-carousel__arrow--left  {
+  margin-left: -1rem;
+}
+
+.react-multiple-carousel__arrow.react-multiple-carousel__arrow--right  {
+  margin-right: -1rem;
 }
 
 /************ Projects Css ************/
@@ -465,7 +482,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .footer p {
   font-weight: 400;
   font-size: 14px;
-  color: #ffffff;
+  color: #000000;
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
