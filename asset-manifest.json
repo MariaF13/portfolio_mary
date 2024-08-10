@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio_mary/static/css/main.e04dbf4c.css",
+    "main.js": "/portfolio_mary/static/js/main.31beabba.js",
+    "static/js/453.2199b7b2.chunk.js": "/portfolio_mary/static/js/453.2199b7b2.chunk.js",
+    "static/media/color-sharp2.png": "/portfolio_mary/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/image.png": "/portfolio_mary/static/media/image.019641444fe750e86c71.png",
+    "static/media/banner-purple-pink.png": "/portfolio_mary/static/media/banner-purple-pink.ccffe8ca8a1f6dd305c8.png",
+    "static/media/foto-eu.png": "/portfolio_mary/static/media/foto-eu.2bd68d95a478e16991c5.png",
+    "static/media/typeorm.png": "/portfolio_mary/static/media/typeorm.09570bcc7ee046cfe558.png",
+    "static/media/CentraNo2-Bold.ttf": "/portfolio_mary/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/portfolio_mary/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/portfolio_mary/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/revicons.eot": "/portfolio_mary/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/portfolio_mary/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/bug.png": "/portfolio_mary/static/media/bug.74c45557bba1620cbaed.png",
+    "static/media/revicons.woff": "/portfolio_mary/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/nav-icon3.svg": "/portfolio_mary/static/media/nav-icon3.76cc6c1aeb3254476dfcb0fce67df45e.svg",
+    "index.html": "/portfolio_mary/index.html",
+    "static/media/nav-icon1.svg": "/portfolio_mary/static/media/nav-icon1.9f09419940e80957a8b2196bf86cd41c.svg",
+    "static/media/nav-icon2.svg": "/portfolio_mary/static/media/nav-icon2.bb443a667df95e8dfec567781c568c23.svg",
+    "main.e04dbf4c.css.map": "/portfolio_mary/static/css/main.e04dbf4c.css.map",
+    "main.31beabba.js.map": "/portfolio_mary/static/js/main.31beabba.js.map",
+    "453.2199b7b2.chunk.js.map": "/portfolio_mary/static/js/453.2199b7b2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e04dbf4c.css",
+    "static/js/main.31beabba.js"
+  ]
+}
