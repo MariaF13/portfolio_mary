@@ -1,6 +1,5 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import calculadora from "../assets/img/calculadora.png";
-import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import { ProjectCard } from "./ProjectCard";
@@ -9,6 +8,8 @@ interface Project {
   title: string;
   description: string;
   imgUrl?: string;
+  githubUrl?: string;
+  liveUrl?: string;
 }
 
 export const Projects = () => {
@@ -17,27 +18,10 @@ export const Projects = () => {
       title: "Curso Dio",
       description: "Calculadora simples",
       imgUrl: calculadora,
+      githubUrl: "https://github.com/MariaF13/desafio-dio01", 
+      liveUrl: "https://mariaf13.github.io/desafio-dio01/", 
     },
-    // {
-    //   title: "Business Startup",
-    //   description: "Design & Development",
-    // },
-    // {
-    //   title: "Business Startup",
-    //   description: "Design & Development",
-    // },
-    // {
-    //   title: "Business Startup",
-    //   description: "Design & Development",
-    // },
-    // {
-    //   title: "Business Startup",
-    //   description: "Design & Development",
-    // },
-    // {
-    //   title: "Business Startup",
-    //   description: "Design & Development",
-    // },
+    
   ];
 
   return (
@@ -49,7 +33,7 @@ export const Projects = () => {
               {({ isVisible }: { isVisible: boolean }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <h2>Projects</h2>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...</p>
+                  <p>Alguns pequenos projetos realizados por mim!</p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                       <Nav.Item>
@@ -71,6 +55,8 @@ export const Projects = () => {
                               title={project.title}
                               description={project.description}
                               imgUrl={project.imgUrl}
+                              githubUrl={project.githubUrl}
+                              liveUrl={project.liveUrl}
                             />
                           ))}
                         </Row>

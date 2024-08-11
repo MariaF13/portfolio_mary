@@ -433,7 +433,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .proj-txtx {
   position: absolute;
   text-align: center;
-  top: 65%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   transition: 0.5s ease-in-out;
@@ -449,12 +449,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1.1em;
+  margin-bottom: 0.5rem;
 }
 .proj-txtx span {
   font-style: italic;
   font-weight: 400;
   font-size: 15px;
   letter-spacing: 0.8px;
+  display: block; 
+  margin-bottom: 1rem; 
 }
 .background-image-right {
   top: 20%;
@@ -464,6 +467,31 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   right: 0;
   z-index: -4;
 }
+/* Contêiner dos botões */
+.button-group {
+  display: flex;
+  justify-content: center; 
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.button-group .btn {
+  border: none;
+  background: transparent;
+  color: #ffffff;
+  font-size: 1.5rem; 
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.button-group .btn:hover {
+  color: #ffdbef; 
+  transform: scale(1.2); 
+}
+
+.button-group .btn:focus {
+  box-shadow: none; 
+}
+
 
 /************ Footer Css ************/
 .footer {
