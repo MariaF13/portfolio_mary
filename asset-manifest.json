@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio_mary/static/css/main.f5bb728e.css",
-    "main.js": "/portfolio_mary/static/js/main.36451ce1.js",
+    "main.css": "/portfolio_mary/static/css/main.83c7ef5d.css",
+    "main.js": "/portfolio_mary/static/js/main.4a657317.js",
     "static/js/453.2199b7b2.chunk.js": "/portfolio_mary/static/js/453.2199b7b2.chunk.js",
     "static/media/image.png": "/portfolio_mary/static/media/image.019641444fe750e86c71.png",
     "static/media/banner-purple-pink.png": "/portfolio_mary/static/media/banner-purple-pink.ccffe8ca8a1f6dd305c8.png",
@@ -16,15 +16,14 @@
     "static/media/bug.png": "/portfolio_mary/static/media/bug.74c45557bba1620cbaed.png",
     "static/media/revicons.woff": "/portfolio_mary/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/nav-icon3.svg": "/portfolio_mary/static/media/nav-icon3.76cc6c1aeb3254476dfcb0fce67df45e.svg",
-    "index.html": "/portfolio_mary/index.html",
     "static/media/nav-icon1.svg": "/portfolio_mary/static/media/nav-icon1.9f09419940e80957a8b2196bf86cd41c.svg",
-    "static/media/nav-icon2.svg": "/portfolio_mary/static/media/nav-icon2.bb443a667df95e8dfec567781c568c23.svg",
-    "main.f5bb728e.css.map": "/portfolio_mary/static/css/main.f5bb728e.css.map",
-    "main.36451ce1.js.map": "/portfolio_mary/static/js/main.36451ce1.js.map",
+    "index.html": "/portfolio_mary/index.html",
+    "main.83c7ef5d.css.map": "/portfolio_mary/static/css/main.83c7ef5d.css.map",
+    "main.4a657317.js.map": "/portfolio_mary/static/js/main.4a657317.js.map",
     "453.2199b7b2.chunk.js.map": "/portfolio_mary/static/js/453.2199b7b2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5bb728e.css",
-    "static/js/main.36451ce1.js"
+    "static/css/main.83c7ef5d.css",
+    "static/js/main.4a657317.js"
   ]
 }
