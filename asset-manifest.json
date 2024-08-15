@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio_mary/static/css/main.83c7ef5d.css",
-    "main.js": "/portfolio_mary/static/js/main.ea97791e.js",
+    "main.css": "/portfolio_mary/static/css/main.a1d61d23.css",
+    "main.js": "/portfolio_mary/static/js/main.5ea90d32.js",
     "static/js/453.2199b7b2.chunk.js": "/portfolio_mary/static/js/453.2199b7b2.chunk.js",
     "static/media/image.png": "/portfolio_mary/static/media/image.019641444fe750e86c71.png",
     "static/media/banner-purple-pink.png": "/portfolio_mary/static/media/banner-purple-pink.ccffe8ca8a1f6dd305c8.png",
     "static/media/foto-eu.png": "/portfolio_mary/static/media/foto-eu.2bd68d95a478e16991c5.png",
+    "static/media/clone.png": "/portfolio_mary/static/media/clone.3d14f2ca8c85415ea10c.png",
     "static/media/typeorm.png": "/portfolio_mary/static/media/typeorm.09570bcc7ee046cfe558.png",
     "static/media/CentraNo2-Bold.ttf": "/portfolio_mary/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/portfolio_mary/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/portfolio_mary/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/calculadora.png": "/portfolio_mary/static/media/calculadora.97c7f46049affbbfa062.png",
+    "static/media/login.png": "/portfolio_mary/static/media/login.9977ff7f2090f7c8a87b.png",
     "static/media/revicons.eot": "/portfolio_mary/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/portfolio_mary/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/bug.png": "/portfolio_mary/static/media/bug.74c45557bba1620cbaed.png",
@@ -18,12 +20,12 @@
     "static/media/nav-icon3.svg": "/portfolio_mary/static/media/nav-icon3.76cc6c1aeb3254476dfcb0fce67df45e.svg",
     "static/media/nav-icon1.svg": "/portfolio_mary/static/media/nav-icon1.9f09419940e80957a8b2196bf86cd41c.svg",
     "index.html": "/portfolio_mary/index.html",
-    "main.83c7ef5d.css.map": "/portfolio_mary/static/css/main.83c7ef5d.css.map",
-    "main.ea97791e.js.map": "/portfolio_mary/static/js/main.ea97791e.js.map",
+    "main.a1d61d23.css.map": "/portfolio_mary/static/css/main.a1d61d23.css.map",
+    "main.5ea90d32.js.map": "/portfolio_mary/static/js/main.5ea90d32.js.map",
     "453.2199b7b2.chunk.js.map": "/portfolio_mary/static/js/453.2199b7b2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.83c7ef5d.css",
-    "static/js/main.ea97791e.js"
+    "static/css/main.a1d61d23.css",
+    "static/js/main.5ea90d32.js"
   ]
 }
