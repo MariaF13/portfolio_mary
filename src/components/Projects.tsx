@@ -1,5 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import calculadora from "../assets/img/calculadora.png";
+import login from "../assets/img/login.png";
+import clone from "../assets/img/clone.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import { ProjectCard } from "./ProjectCard";
@@ -15,12 +17,26 @@ interface Project {
 export const Projects = () => {
   const projects: Project[] = [
     {
-      title: "Curso Dio",
+      title: "Formação React",
       description: "Calculadora simples",
       imgUrl: calculadora,
       githubUrl: "https://github.com/MariaF13/desafio-dio01", 
       liveUrl: "https://mariaf13.github.io/desafio-dio01/", 
     },
+    {
+      title: "Formação React",
+      description: "Tela de login",
+      imgUrl: login,
+      githubUrl: "https://github.com/MariaF13/desafio-dio04", 
+      liveUrl: "https://mariaf13.github.io/desafio-dio04/", 
+    },
+    {
+      title: "Formação React",
+      description: "Clone DIO",
+      imgUrl: clone,
+      githubUrl: "https://github.com/MariaF13/clone-dio", 
+      liveUrl: "https://mariaf13.github.io/clone-dio/", 
+    }
     
   ];
 
@@ -62,10 +78,10 @@ export const Projects = () => {
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
-                        <p>Lorem ipsum dolor sit amet...</p>
+                        <p>Loading...</p>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
-                        <p>Lorem ipsum dolor sit amet...</p>
+                        <p>Loading...</p>
                       </Tab.Pane>
                     </Tab.Content>
                   </Tab.Container>
